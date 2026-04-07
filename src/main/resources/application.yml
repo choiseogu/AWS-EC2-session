@@ -4,7 +4,7 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: update # 실습용이므로 테이블 자동 생성
+      ddl-auto: update
     properties:
       hibernate:
         format_sql: true
